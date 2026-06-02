@@ -1,0 +1,17 @@
+node_modules/
+npm-debug.log
+
+# Artefactos de Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Cache / sistema
+.cache/
+.DS_Store
+*.log
+
+# Entorno Docker (no se sube)
+Dockerfile
+docker-compose.yml
+.dockerignore
